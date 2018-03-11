@@ -1413,7 +1413,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 30
   miningSpeed: 0
-  transferSpeed: 0
   amountMined: 0
   moveDirection: 1
 --- !u!70 &1759931021
@@ -1474,7 +1473,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 30
   miningSpeed: 0
-  transferSpeed: 0
   amountMined: 0
   moveDirection: 1
 --- !u!70 &1806937892
@@ -1841,6 +1839,34 @@ Prefab:
     - {fileID: 114201159115800144, guid: 7ccb4aabc81e74735aa305c411647385, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 7ccb4aabc81e74735aa305c411647385, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2047299519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2047299520}
+  m_Layer: 0
+  m_Name: LevelController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2047299520
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2047299519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1390797, y: -4.9085474, z: 3.6542969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2061435552
 GameObject:
   m_ObjectHideFlags: 0

@@ -331,11 +331,10 @@
     <Compile Include="Assets\Scenes\TriggerDetection.cs" />
     <Compile Include="Assets\Scripts\BoxController.cs" />
     <Compile Include="Assets\Scripts\CartController.cs" />
-    <Compile Include="Assets\Scripts\FollowPath.cs" />
+    <Compile Include="Assets\Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\LiftController.cs" />
     <Compile Include="Assets\Scripts\LiftStorageController.cs" />
     <Compile Include="Assets\Scripts\MinerController.cs" />
-    <Compile Include="Assets\Scripts\SetPath.cs" />
     <Compile Include="Assets\Scripts\TankStorageController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
